@@ -186,6 +186,7 @@ public class ArithmeticsApp extends javax.swing.JFrame {
 
     private void divideActionPerformed(java.awt.event.ActionEvent evt) {                                       
         try{
+        result.setForeground(Color.black);
         num1 = Integer.parseInt(firstNum.getText());
         num2 = Integer.parseInt(secondNum.getText());
         r = num1 / num2;
@@ -198,6 +199,7 @@ public class ArithmeticsApp extends javax.swing.JFrame {
 
     private void multiplierActionPerformed(java.awt.event.ActionEvent evt) {                                           
         try{
+        result.setForeground(Color.black);
         num1 = Integer.parseInt(firstNum.getText());
         num2 = Integer.parseInt(secondNum.getText());
         r = num1 * num2;
@@ -210,6 +212,7 @@ public class ArithmeticsApp extends javax.swing.JFrame {
 
     private void plusActionPerformed(java.awt.event.ActionEvent evt) {                                     
         try{
+        result.setForeground(Color.black);    
         num1 = Integer.parseInt(firstNum.getText());
         num2 = Integer.parseInt(secondNum.getText());
         r = num1 + num2;
@@ -222,6 +225,7 @@ public class ArithmeticsApp extends javax.swing.JFrame {
 
     private void minusActionPerformed(java.awt.event.ActionEvent evt) {
         try{
+        result.setForeground(Color.black);    
         num1 = Integer.parseInt(firstNum.getText());
         num2 = Integer.parseInt(secondNum.getText());
         r = num1 - num2;
@@ -240,6 +244,7 @@ public class ArithmeticsApp extends javax.swing.JFrame {
 
     private void modActionPerformed(java.awt.event.ActionEvent evt) {
         try{
+        result.setForeground(Color.black);    
         num1 = Integer.parseInt(firstNum.getText());
         num2 = Integer.parseInt(secondNum.getText());
         r = num1 % num2;
